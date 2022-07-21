@@ -18,13 +18,57 @@
 <body>
     <header>
         <img src="/assets/html_css_js.png">
-        <h1>Web App</h1>
+        <h1>Nametag</h1>
     </header>
 
+            <main>
+                <div class="form">
+                <label for="name-input">What is your name?</label>
+                <input type="text" name="name-input" id="name-input" />
+                <button id="name-btn">Submit Name</button>
+                </div>
+
+                <label for="pronoun-input">What are your pronouns?</label>
+                <input type="text" name="pronoun-input" id="pronoun-input" />
+                <button id="pronoun-btn">Submit Pronouns</button>
+
+                <label for="city-input">Where are you from?</label>
+                <input type="text" name="city-input" id="city-input" />
+                <button id="city-btn">Submit City</button>
+
+                <label for="color-input">Choose a nametag color</label>
+                <input type="color" name="color-input" id="color-input" />
+                <button id="color-btn">Apply Color</button>
+
+                <main>
+                    <div id="nametag">
+                        <div id="top">Hello, my name is</div>
+                        <div id="name">Ryan</div>
+                        <div id="pronouns">he/him</div>
+                        <div id="city">Vancouver</div>
+                        <div id="bottom"></div>
+                    </div>
+                </main>
+            
+            </main>
+
+
+    <!--
     <main>
+        <span class="name-field">
+        <label for="name-input">What is your name?</label>
+        <input type="text" name="name-input" id="name-input" />
+        <button id="name-button">Submit name</button>
+        </span>
+
+        <div id="nametag">
+            <div id="nametag-header">Hi, my name is</div>
+            <div id="name"></div>
+            <div id="nametag-footer"></div>    
+        </div>
 
     </main>
-
+-->
     <footer>&copy;2022 Software Developer</footer>
 
     <script type="module" src="app.js"></script>
