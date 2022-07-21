@@ -38,27 +38,33 @@ footer {
 }
 
 .form {
-    display: inline;
-    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
 }
 
 
 label {
     height: 50px;
+    width: 50%;
     font-size: 1.4em;
     display: flex;
     flex-direction: flex-start;
+    align-items: center;
+    justify-content: center;
 }
 
 input {
     height: 50px;
     font-size: 1.3rem;
     font-weight: 700;
+    width: 50%
 }
 
 button {
     height: 50px;
-    font-size: 1.3em
+    font-size: 1.3em;
+    width: 50%;
 }
 
 button:hover {
